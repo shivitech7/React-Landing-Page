@@ -1,0 +1,22 @@
+
+.footer_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    /* border: 1px solid black; */
+  }
+  
+  .footer_item{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+   margin: 20px 30px 10px 30px;
+  }
+  
+  .footer_item p{
+    font-size:13px;
+    font-weight:400
+  }

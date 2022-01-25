@@ -1,0 +1,19 @@
+.logo_container{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 300px;
+    overflow-y: scroll;
+  }
+  
+  .logo_container::-webkit-scrollbar {
+    display:none;
+  }
+
+  .logo{
+    /* border: 1px solid black; */
+    margin: 5% 3% 5% 3%;
+    height: fit-content;
+    width: fit-content; 
+  }
